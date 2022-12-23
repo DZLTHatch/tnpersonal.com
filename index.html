@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Day Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#intro"><img src="images/mountains-1412683.png" alt=""></a>
+        </div>
+        <ul class="header-ul">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#abt">About</a></li>
+        </ul>
+    </header>
+    <!-- Header is 80px fixed pos -->
+    <!-- secs body -->
+    <div class="introduction" id="intro">
+        <h1>Blend yourself <br> <span class="wn-span">with us.</span><span
+                style="font-size: 18px; display: block; margin-top: 12px; font-weight: 500;"><strong>Members:
+                </strong>Alex Wong, Dylan Yang, Dylan Tran, Titus Lui, Leo Cox, Thach Ngu</span></h1>
+        <p></p>
+        <div class="welcome-page">
+            <div class="wp-left">
+                <p>A shark evolution game where you can choose your own shark, choose your own theme and font size and
+                    choose from several games.</p>
+            </div>
+            <img class="wp-mid" src="images/jg.png" alt="">
+            <div class="wp-right">
+                <p>There's several games in our game. One is -Shark Clicker-, the other one is -Shark Running- that's
+                    made by other team members and I.</p>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="blog">
+        <section class="secs">
+            <div class="home-img">
+                <img src="images/su.png" alt="" style="object-position: left;">
+            </div>
+            <div class="home-content">
+                <h1>Get <span class="gold-col">FUN-NED.</span></h1>
+                <p>The home page of the website contains a sidebar with 3 different options. You can choose to play a
+                    game, change the settings, or choose your shark. Before the project, I didn't know how to let the
+                    div container slide on click, but now I do. The sidebar contains several hover effects, including
+                    the change of background smoothly and make text glow.</p>
+                <a href="#explore"><button>Explore</button></a>
+            </div>
+        </section>
+        <section class="secs flex-flip" style="position: relative;">
+            <div class="home-img">
+                <img src="images/cs.png" alt="">
+            </div>
+            <div class="home-content hc-flip">
+                <h1><span class="gold-col">IMAGINATION</span> Burst!</h1>
+                <p>This section allows the player to select a shark and unselect it. Before the project, I didn't know
+                    how to reference through a list in JavaScript and then use the id pre-defined to determine which
+                    button is clicked so the program can select a shark that's paired with that certain button.</p>
+                <a href="#explore"><button>Explore</button></a>
+            </div>
+            <img class="about-img" src="images/code1.png" alt="" style='object-position: bottom;'>
+        </section>
+        <section class="secs" style="position: relative">
+            <div class="home-img">
+                <img src="images/st.png" alt="">
+            </div>
+            <div class="home-content">
+                <h1><span class="gold-col">Compete</span>ation</h1>
+                <p>The setting button allows the user to change theme and change font to one different theme or font.
+                    The user is also capable of resetting the theme or font. When the change theme button is clicked,
+                    its text is going to change, and likewise for the change font button.</p>
+                <a href="#explore"><button>Explore</button></a>
+            </div>
+            <img class="mt-splash" src="images/code2.png" alt="">
+        </section>
+    </div>
+    <section class="abt-sec" id="explore">
+        <div class="abt-c">
+            <div class="span">
+                <span>EXPLORE</span>
+            </div>
+            <div class="about">
+                <div class="abt-container">
+                    <img src="images/code1.png" alt="" style="object-position: left;">
+                    <div class="invi-info">
+                        <span class="gold-col">CREATIVITY</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit alias neque
+                            obcaecati, sapiente dolor atque tenetur ipsa incidunt vero quisquam numquam laudantium,
+                            explicabo nostrum asperiores quis nihil ipsum earum.</p>
+                    </div>
+                </div>
+                <div class="abt-container">
+                    <img src="images/code2.png" alt="" style="object-position: left;">
+                    <div class="invi-info">
+                        <span class="gold-col">IMAGINATION</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit alias neque
+                            obcaecati, sapiente dolor atque tenetur ipsa incidunt vero quisquam numquam laudantium,
+                            explicabo nostrum asperiores quis nihil ipsum earum.</p>
+                    </div>
+                </div>
+                <div class="abt-container">
+                    <img src="images/code3.png" alt="" style="object-position: left;">
+                    <div class="invi-info">
+                        <span class="gold-col">HARMONIZING</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit alias neque
+                            obcaecati, sapiente dolor atque tenetur ipsa incidunt vero quisquam numquam laudantium,
+                            explicabo nostrum asperiores quis nihil ipsum earum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer" id="abt">
+        <section class="explore">
+            <div class="circle"></div>
+            <div class="content">
+                <h2>CREATIVITY</h2>
+                <p>We work collaboratively and work enthusiastically on the project and created the game where people
+                    can feel free after a long day. </p>
+                <a href="https://game-hub.alexanderwong13.repl.co/">Get Inspired!</a>
+            </div>
+            <img class="explore-img" src="images/city-1117433.png" alt="">
+        </section>
+        <section class="explore">
+            <div class="circle"></div>
+            <div class="content">
+                <h2>IMAGINATION</h2>
+                <p>We took a few days to come up with a solid idea and we imagined how the program is going to work
+                    exactly. We gathered ideas and worked it out together.</p>
+                <a href="https://seaclicker.alexanderwong13.repl.co/">Get Inspired!</a>
+            </div>
+            <img class="explore-img" src="images/dandelion-gb42afaf04_640.jpg" alt="">
+        </section>
+        <section class="explore">
+            <div class="circle"></div>
+            <div class="content">
+                <h2>Fun!</h2>
+                <p>We had fun, enjoyed the process. We usually call and work together and work at times when everybody
+                    can work and collaborate.</p>
+                <a href="https://game-hub.alexanderwong13.repl.co/">Get Inspired!</a>
+            </div>
+            <img class="explore-img" src="images/guitar.jpg" alt="">
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
